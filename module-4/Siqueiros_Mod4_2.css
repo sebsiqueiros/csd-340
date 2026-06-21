@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: rgba(196, 69, 0, 1);
+}
+
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+h3 {
+    text-align: center;
+    color: rgba(196, 69, 0, 1);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(196, 69, 0, 1);
+}
+
+#image-gallery div {
+    border: solid 1px rgba(196, 69, 0, 1);
+}
