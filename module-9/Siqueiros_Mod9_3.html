@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<!--
+    Name: Sebastian Siqueiros
+    Assignment: Module 9.3 – JavaScript Part 1
+    Course: CSD 340 Web Development with HTML and CSS
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Assignment 9.3">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Sebastian Siqueiros">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <link href="Siqueiros_Mod9_3.css" rel="stylesheet" type="text/css">
+
+    <script>
+        var firstVariableValue = "Bushido";
+        var secondVariableValue = "Operation Downfall";
+        var thirdVariableValue = "bomb";
+        var fourthVariableValue = "Harry Truman";
+    </script>
+
+</head>
+
+<body>
+
+<div id="container">
+
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+
+    <h2>Dropping The Bomb</h2>
+
+    <p>
+        During the final months of World War II, Germany had already surrendered, but Japan continued fighting despite suffering devastating losses. The Japanese military followed the
+        <span id="word1">____________</span>
+        code, which emphasized honor, loyalty, and fighting until death rather than surrendering. Because of this mindset, American leaders believed Japan would continue resisting even as the war became increasingly hopeless. Heavy bombing campaigns and naval blockades weakened Japan, but they still refused to surrender unconditionally.
+    </p>
+
+    <button type="button"
+        onclick="document.getElementById('word1').innerHTML = firstVariableValue;">
+        Reveal Word
+    </button>
+
+    <p>
+        As the war dragged on, the United States considered several different ways to force Japan's surrender. One option was to continue conventional bombing and hope Japan eventually gave up. Another was to tighten the naval blockade and cut off supplies. The largest military plan under consideration was
+        <span id="word2">________________________</span>,
+        a full-scale invasion of the Japanese mainland. Military planners estimated that such an invasion could result in hundreds of thousands of American casualties and possibly millions of Japanese military and civilian deaths, making it one of the riskiest options available.
+    </p>
+
+    <button type="button"
+        onclick="document.getElementById('word2').innerHTML = secondVariableValue;">
+        Reveal Word
+    </button>
+
+    <p>
+        After weighing every option, American leaders decided to use the
+        <span id="word3">____________</span>
+        in an effort to end the war as quickly as possible. President
+        <span id="word4">________________</span>
+        approved the decision after considering the potential loss of life that an invasion could bring. The bombings of Hiroshima and Nagasaki ultimately led to Japan's surrender, officially ending World War II. Although the decision remains controversial and continues to be debated by historians today, it was made during one of the most difficult and uncertain moments in modern history.
+    </p>
+
+    <button type="button"
+        onclick="document.getElementById('word3').innerHTML = thirdVariableValue;">
+        Reveal Word
+    </button>
+
+    <button type="button"
+        onclick="document.getElementById('word4').innerHTML = fourthVariableValue;">
+        Reveal Word
+    </button>
+
+</div>
+
+</body>
+
+</html>
